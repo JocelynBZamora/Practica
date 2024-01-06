@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using neatBurger.Repositories;
 using Practica.Models.entities;
 
 var builder = WebApplication.CreateBuilder(args);
