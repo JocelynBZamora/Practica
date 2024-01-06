@@ -1,0 +1,20 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html>
+<head>
+    <link href="~/estilos.css" rel="stylesheet" />
+    <title>Neat Burguer</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a asp-controller="Home" asp-action="Index">Principal</a>
+            <a href="~/Home/Promociones">Promociones</a>
+            <a asp-controller="Home" asp-action="Menu">Menú</a>
+        </nav>
+    </header>
+    <main>
+@RenderBody()
+
+    </main>
+</body>
+</html>
